@@ -13,3 +13,6 @@ theme:
   features:
     - content.code.copy
   name: material
+  icon: 
+    admonition:
+      <type>: material/alert-circle
