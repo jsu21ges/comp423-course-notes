@@ -51,7 +51,7 @@ git commit -m "Initial commit with README"
 3. Click **Create Repository**
 4. Link your local repository to GitHub. You can do this in terminal with:
 ```
-git remote add origin https://github.com/<your-username>/go-project .git
+git remote add origin https://github.com/<your-username>/go-project.git
 ```
 Replace `<your-username>` with your GitHub username
 5. Check your default branch name with the subcommand `git branch`. If it's not `main`, rename it to `main` with the following command: `git branch -M main`.
@@ -68,7 +68,7 @@ Now that you have the repository set up, we can get started on the Devoloper Con
 
 ### Add Development Container Configuration
 
-1. In VSCode, open the ```Rust-Project``` directory. You can do this via: File > Open Folder
+1. In VSCode, open the ```go-project``` directory. You can do this via: File > Open Folder
 2. Install the **Dev Containers** extension for VS Code.
 3. Create a ```.devcontainer``` directory in the root of your project with the following file inside of this "hidden" configuration directory:
 ```
