@@ -8,8 +8,14 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 theme:
   features:
     - content.code.copy
   name: material
+  icon: 
+    admonition:
+      <type>: material/alert-circle
