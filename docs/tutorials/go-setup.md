@@ -125,7 +125,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Hello, World!")
+    fmt.Println("Hello COMP423")
 }
 ```
  This is your Go code. In this code, you: 
@@ -135,7 +135,7 @@ func main() {
 5. Run your code to see the greeting.
 ```
 $ go run hello.go
-Hello, World!
+Hello COMP423
 ```
 Alternatively you could also run:
 ```
